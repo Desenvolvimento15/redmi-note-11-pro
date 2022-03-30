@@ -281,7 +281,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   left: 6.421875rem;
-  top: 7.851563rem;
+  top: 7.751563rem;
   width: 2.101563rem;
 }
 .redmi-note-11-pro.overview-con .section-o1 .price {
@@ -510,7 +510,7 @@
 .redmi-note-11-pro.overview-con .section-o9 .item {
   display: flex;
   flex-direction: column;
-  text-align: left;
+  text-align: center;
   width: 1.40625rem;
 }
 .redmi-note-11-pro.overview-con .section-o9 .f30 {
