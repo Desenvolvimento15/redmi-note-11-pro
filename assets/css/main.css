@@ -13196,42 +13196,8 @@ html > img {
 }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-html {
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-  font-family: sans-serif;
-}
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block;
-}
-audio,
-canvas,
-progress,
-video {
-  display: inline-block;
-  vertical-align: initial;
-}
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-[hidden],
-template {
-  display: none;
-}
+
 a {
   background-color: initial;
 }
@@ -13362,30 +13328,7 @@ td,
 th {
   padding: 0;
 }
-body[themes="en"] {
-  font-family: proximanova, arial, sans-serif;
-  font-weight: 400;
-}
-body[themes="zh"] {
-  font-family: Microsoft Yahei, Hiragino Sans GB, sans-serif;
-  font-weight: 400;
-}
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #f5f5f5;
-  color: #757575;
-  font-size: 14px;
-  line-height: 1.5;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 400;
-}
+
 a {
   color: #757575;
 }
@@ -13909,15 +13852,7 @@ sub {
 .gr .f-bold {
   font-weight: 700 !important;
 }
-#root {
-  display: flex;
-  flex-flow: column nowrap;
-  min-height: 100%;
-  min-width: 1226px;
-}
-#review-root {
-  min-height: 100vh;
-}
+
 a {
   color: inherit;
   font-size: 14px;
@@ -13931,10 +13866,7 @@ main {
   display: inline-block;
   font-size: 16px;
 }
-body {
-  background-color: var(--background-base);
-  color: var(--title-dark);
-}
+
 input,
 select,
 textarea {
@@ -14648,3 +14580,10 @@ textarea {
   --notice-error-1: #f14d4d;
   --scroll-base: #ddd;
 }
+
+@media only screen and (min-width: 0px) and (max-width: 769px){
+  
+  .redmi-note-11-pro{
+  display: none;
+      
+  }}
